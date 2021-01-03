@@ -12,4 +12,4 @@ stopButton = Button(3) # defines the button as an object and chooses GPIO 3
 while True: #infinite loop
     if stopButton.is_pressed: # Check to see if button is pressed
         os.system("halt") # shut down the Pi
-    time.sleep(10) # wait to loop again so we don’t use the processor too much.
+    time.sleep(10) # wait to loop again so we don't use the processor too much.
