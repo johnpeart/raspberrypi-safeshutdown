@@ -15,6 +15,8 @@ A script for initiating a safe shutdown on a Raspberry Pi when a button, attache
 5. Reboot the Raspberry Pi:\
 `sudo reboot`
 
+> **NOTE**: It is _very_ important that you add the code in step 4 _before_ the `exit 0`. If you don't, you'll cause terminal havoc.
+
 ## Adding the hardware button
 
 You will need an "Normally Open" ("NO") switch and some wire. You should:
