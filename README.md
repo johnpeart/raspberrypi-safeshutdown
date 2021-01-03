@@ -17,10 +17,10 @@ A script for initiating a safe shutdown on a Raspberry Pi when a button, attache
 
 ## Adding the hardware button
 
-You will need an "Normally Open" ("NO") switch and some wire.
+You will need an "Normally Open" ("NO") switch and some wire. You should:
 
-1. Attach a wire to each of the terminals on the button.
-2. Attach the other ends of the wire to GPIO 3 and a GND pin (e.g. physical pins 5 and 6)
+1. attach a wire to each of the terminals on the button
+2. attach the other ends of the wire to GPIO 3 and a GND pin (e.g. physical pins 5 and 6)
 
 The benefit of using GPIO 3 is that it will also power *on* the Raspberry Pi when shorted to a GND pin.
 
