@@ -11,7 +11,7 @@ A script for initiating a safe shutdown on a Raspberry Pi when a button, attache
 3. Open `rc.local` in the text editor as the super-user:\
 `sudo nano /etc/rc.local`
 4. Add the following command **before** the `exit 0` at the end of `rc.local`:\
-`sudo python /home/pi/piShutdown.py &`
+`sudo python /home/pi/raspberrypi-safeshutdown/safe-shutdown.py &`
 5. Reboot the Raspberry Pi:\
 `sudo reboot`
 
